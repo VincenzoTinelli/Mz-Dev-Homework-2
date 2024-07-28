@@ -1,0 +1,31 @@
+{
+  "name": "homework-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.0",
+    "@openzeppelin/contracts": "4.9.2",
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "truffle": "^5.5.24",
+    "web3": "^1.0.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "eth-gas-reporter": "^0.2.25",
+    "ganache-cli": "^6.12.2",
+    "solidity-coverage": "0.7.16",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.6.1"
+  }
+}
